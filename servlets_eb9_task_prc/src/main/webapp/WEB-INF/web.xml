@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+	<!-- DELOYING THE DEMO SERVLET -->
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>servlets_eb9_task_prc.FirstClass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/rajath</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+	<!-- DELOYING THE DEMO SERVLET -->
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>servlets_eb9_prc.SecondClass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/abc</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Hi</servlet-name>
+		<servlet-class>servlets_eb9_prc.HiClass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Hi</servlet-name>
+		<url-pattern>/hi</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Sum</servlet-name>
+		<servlet-class>servlets_eb9_prc.SumClass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Sum</servlet-name>
+		<url-pattern>/sum</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Details</servlet-name>
+		<servlet-class>servlets_eb9_prc.DetailsClass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Details</servlet-name>
+		<url-pattern>/details</url-pattern>
+	</servlet-mapping>
+</web-app>
